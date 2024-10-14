@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This App is built with [appwrite](https://appwrite.io/), React + Vite
 
-Currently, two official plugins are available:
+To use:
+```
+git clone
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you already have appwrite cloud and replace your key here: (/src/lib/appwrite.js)
+```
+client
+  .setEndpoint("https://cloud.appwrite.io/v1")
+  .setProject(your-project-id); // Replace with your project ID
+```
