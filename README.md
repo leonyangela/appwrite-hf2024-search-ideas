@@ -4,7 +4,7 @@ This App is built with [appwrite](https://appwrite.io/), React + Vite
 
 To use:
 ```
-git clone
+git clone https://github.com/leonyangela/appwrite-hf2024-search-ideas.git
 npm install
 npm run dev
 ```
